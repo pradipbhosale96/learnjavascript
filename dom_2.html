@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lets larn js</title>
+</head>
+<body style="background-color: #212121;color:#ffff;">
+    
+</body>
+<script>
+   const div= document.createElement('h1')
+   console.log(div);
+   div.className="main"
+   div.id=Math.random(Math.random()*10+1)
+   div.setAttribute("title","generate title")
+   div.style.backgroundColor="yellow"
+   div.padding="12px"
+   div.innerHTML="code with PRadip"
+   const addText=document.createTextNode("code with Pradip")
+   div.appendChild(addText)
+   document.body.appendChild(div)
+</script>
+</html>
